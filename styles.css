@@ -1,0 +1,276 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  background-color: f9f9f9;
+  height: 80px;
+  width: 1250;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separadora {
+  height: 1px;
+  width: 1250px;
+  background-color: #f5f6f7;
+}
+
+.subtitulo {
+  height: 40px;
+  width: 1250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.subtitulo > a {
+  font-weight: bolder;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.darkread {
+  color: #c4170c;
+}
+
+.blue {
+  color: #4b70ae;
+}
+
+.darkgreen {
+  color: green;
+}
+.lightgreen {
+  color: rgb(33, 189, 33);
+}
+
+.pumpkin {
+  color: orangered;
+}
+
+.red {
+  color: red;
+}
+
+.lightpink {
+  color: pink;
+}
+
+.orange {
+  color: #EC8006;
+}
+
+.black {
+  color: black;
+}
+
+.purple {
+  color: purple;
+}
+
+.separadora2 {
+  height: 1px;
+  width: 1250px;
+  background-color: #f5f6f7;
+}
+
+.conteudo {
+  width: 1250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lado_a {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.a1 {
+  width:624px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 25px;
+}
+.a1 > a {
+  text-decoration: none;
+}
+a > h1 {
+  font-weight: bolder;
+  font-size: 52px;
+  color: #c4160c;
+  margin-bottom: 29px;
+}
+.a1 > p {
+  font-size: 18px;
+  color: #303134;
+  margin-bottom: 7px;
+ 
+}
+.separadora3 {
+  height: 1px;
+  background-color: #f5f6f7;
+  margin-bottom: 25px;
+}
+
+.a2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  width: 624px;
+  margin-bottom: 36px;
+}
+.news {
+  width: 193px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-right: 24px;
+}
+.news > a {
+  text-decoration: none;
+}
+.news > img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+  margin-bottom:11px;
+}
+
+.destaque {
+  color: #c4170c;
+  font-size: 14px;
+  font-weight: 500px;
+  margin-bottom: 6px;
+}
+.manchete {
+  font-weight: bolder;
+  font-size: 20px;
+  color: #2f3134;
+  font-weight 700px;
+  margin-bottom:8px;
+}
+.news > h2 {
+  font-size: 14px;
+  color:#2F3134;
+  font-weight:400px;
+
+}
+
+.separadora3a {
+  height: 1px;
+  background-color: #f5f6f7;
+  margin-bottom: 25px;
+}
+
+.a3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  width:624px;
+}
+.separadora4 {
+  width: 1px;
+  height:845px;
+  background-color: #ebedef;
+  margin-left: 36px;
+  margin-right: 35px;
+}
+.lado_b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.b1 {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-evenly;
+  
+}
+.b1 > img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  margin-top: 50px;
+}
+.b1 > a {
+  text-decoration: none;
+}
+.ge {
+  color: rgb(33, 189, 33);
+  font-size: 14px;
+  font-weight: 500px;
+  margin-bottom:6px;
+}
+
+.b1 > h2 {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #2F3134;
+  
+}
+.separadora5 {
+  width: 1px;
+  height:845px;
+  background-color: #EBEDEF;
+  margin-left:35px;
+  margin-right: 36px;
+
+}
+.b2 {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-evenly;
+ 
+}
+.b2 > img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+  margin-top: 50px;
+}
+.b2 > a {
+  text-decoration: none;
+}
+.gshow {
+  color: #EC8006;
+  font-size: 14px;
+  font-weight: 500px;
+  margin-bottom:6px;
+}
+
+.manchete_b {
+  font-weight: bolder;
+  font-size: 20px;
+  font-weight: 700px;
+  color: #2F3134;
+  margin-bottom: 8px;
+}
+.b2 > h2 {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #2F3134;
+  margin-bottom:8px;
+  }
+
